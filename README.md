@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align=center> Pearson – image classification using CNN</h1>
 
 ## General info
@@ -98,3 +99,11 @@ $ pip install -r dependencies.txt
 $ jupyter notebook
 ```
 
+=======
+# pear-sons
+Simple image classification using CNN (Keras) and 'PearSon' dataset.
+# introduction
+The project was aimed to conduct a simple image classification using convolutional neural network.
+
+ 
+>>>>>>> 8c776d6b6087d0f90ef329fdab561489b7796d3d
