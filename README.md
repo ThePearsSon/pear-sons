@@ -14,10 +14,10 @@ The project is an attempt to image classification using Convolutional Neural Net
 
 `pearson.ipynb` - contains data preparation, sequential model (keras), it's training and simple evaluation
 
-`requirements.txt` - list of Python dependencies of the project, e.g. **numpy, pandas, tensorflow, keras** (including **jupyter notebook** packages)
+`requirements.txt` - list of Python dependencies of the project, e.g. **numpy, tensorflow, keras** (including **jupyter notebook** packages)
 
 ## Summary
-The main goal of this project is to apply simple CNN model for image classification using technology provided by keras. I'm not fully sattisfied of the evaluation of that project but on the other hand I kept in mind issues connected with applied assumptions. I will point out the 4 main conclusions:
+The main goal of this project is to apply simple CNN model for image classification using technology provided in keras. I'm not fully satisfied of the evaluation of that project but on the other hand I kept in mind issues connected with applied assumptions. I will point out the 4 main conclusions:
 
 **1. Too small data set** - whole data set after preselection counted 1108 images, of wchich 400 pears 
 images and 508 Sons images in training set. Validation set was 20% of dataset.
@@ -33,7 +33,7 @@ images and 508 Sons images in training set. Validation set was 20% of dataset.
 
 ![Drag Racing](resources/img2.PNG)
 
-**4. Not rotated images** - the model should work in the same way regardless of rotation of images. In presented model rotated image provides different results. 
+**4. Not considering rotation of images** - the model should work in the same way regardless of rotation of images. In presented model rotated image provides different results. 
 
 ## How to use
 
