@@ -4,7 +4,7 @@
 The project is an attempt of a image classification using Convolutional Neural Network with Keras and self-prepared Pearson image dataset. 
 
 ## Content
-`script.js` - few lines of code which allows to scrap URLs of images already loaded in Google Images page 
+`script.js` - few lines of code which allows to scrape URLs of images already loaded in Google Images page 
 
 `pears_urls.txt` / `sons_urls.txt`- text files of pears/Sons images URLs, generated using script.js code
 
