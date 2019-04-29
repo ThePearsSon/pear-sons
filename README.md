@@ -17,7 +17,7 @@ The project is an attempt of a image classification using Convolutional Neural N
 `requirements.txt` - list of Python dependencies of the project, e.g. **numpy, tensorflow, keras** (including **jupyter notebook** packages)
 
 ## Summary
-The main goal of this project is to apply simple CNN model for image classification using technology provided in keras. I'm not fully satisfied of the evaluation of that project but on the other hand I kept in mind issues connected with applied assumptions. I will point out the 4 main conclusions:
+The main goal of this project is to apply simple CNN model for image classification using technology provided in keras. I'm not fully satisfied of the evaluation of that project but on the other hand I kept in mind issues connected with applied assumptions. I will show you below main 4 conclusions:
 
 **1. Too small data set** - whole data set after preselection has 1108 images, of wchich 400 pears 
 images and 508 Sons images in training set. Validation set was 20% of dataset.
