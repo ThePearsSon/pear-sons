@@ -1,7 +1,7 @@
 <h1 align=center> Pearson – image classification using CNN</h1>
 
 ## General info
-The project is an attempt of a image classification using Convolutional Neural Network with Keras and self-prepared Pearson image dataset. 
+The project is an attempt of a image classification using Convolutional Neural Network with Keras and self-prepared **Pearson** image dataset. 
 
 ## Content
 `script.js` - few lines of code which allows to scrape URLs of images already loaded in Google Images page 
