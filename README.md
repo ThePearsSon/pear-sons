@@ -1,11 +1,10 @@
-<<<<<<< HEAD
 <h1 align=center> Pearson – image classification using CNN</h1>
 
 ## General info
-The project is an attempt to image classification using Convolutional Neural Network with Keras and self-prepared Pearson image dataset. 
+The project is an attempt of a image classification using Convolutional Neural Network with Keras and self-prepared **Pearson** image dataset. 
 
 ## Content
-`script.js` - few lines of code which allows to scrap URLs of images already loaded in Google Images page 
+`script.js` - few lines of code which allows to scrape URLs of images already loaded in Google Images page 
 
 `pears_urls.txt` / `sons_urls.txt`- text files of pears/Sons images URLs, generated using script.js code
 
@@ -15,17 +14,16 @@ The project is an attempt to image classification using Convolutional Neural Net
 
 `pearson.ipynb` - contains data preparation, sequential model (keras), it's training and simple evaluation
 
-`requirements.txt` - list of Python dependencies of the project, e.g. **numpy, pandas, tensorflow, keras** (including **jupyter notebook** packages)
+`requirements.txt` - list of Python dependencies of the project, e.g. **numpy, tensorflow, keras** (including **jupyter notebook** packages)
 
 ## Summary
-The main goal of this project is to apply simple CNN model for image classification using technology provided by keras. I'm not fully sattisfied of the evaluation of that project but on the other hand I kept in mind issues connected with applied assumptions. I will point out the 4 main conclusions:
+The main goal of this project is to apply simple CNN model for image classification using technology provided in keras. I'm not fully satisfied of the evaluation of that project but on the other hand I kept in mind issues connected with applied assumptions. I will show you below main 4 conclusions:
 
-**1. Too small data set** - whole data set after preselection counted 1108 images, of wchich 400 pears 
-images and 508 Sons images in training set. Validation set was 20% of dataset.
+**1. Too small data set** - whole dataset has 1108 image after preselection, of which 400 pears images and 508 Sons images in training set and 100 of each in validation set. The larger dataset is, the more accurate the prediction should be.
 
-**2. The applied model architecture wasn't perfect** - my simple model counted only 12 layers. For example **ResNet50** model (from ImageNet competition) included about 150 layers, with over 25 000 000 of params, but it was trained on over 1.2 mln images. In my opinion there is no sense for creating more complicated model to such a tiny dataset, due to overfitting probabillity. It is much easier to overfit model with less amount of data. However, it is possible to make some changes, that will not complicate the model much and could increase accuracy. I must admit that I still improve my skills in deep learning and generally speaking in data science and IT. Every day I'm learning new practical skills, even while working on that project.
+**2. The applied models architecture wasn't perfect** - my simple model consists of only 12 layers. For example **ResNet50** model (from ImageNet competition) included about 150 layers, with over 25 000 000 of params, but it was trained on over 1.2 mln images. In my opinion there is no sense for creating more complicated model to such a tiny dataset, due to overfitting probabillity. It is much easier to overfit model with less amount of data. However, it is possible to make some changes, that will not complicate the model much and could increase accuracy. I must admit that I still improve my skills in deep learning and more general in data science and IT. Every day I learn new practical skills, even while working on that project.
 
-**3. Other objects appearance** - I need to point out about one more important issue. Other objects that appears on the images have impact on the final result. For example, Son is usually surrounded by grass (of football pitch). If we will try to predict category of a pear lying on the grass it is more likely that pear is actually Son. And one of factors that will cause that situation is grass on the image. Additionally Son has red T-shirt on many pictures. That's why it is even more likely that red pear on the grass is Spurs player!
+**3. Appearance of undesirable objects** - I need to point out about one more important issue. Other objects that appears on the images have impact on the final result. For example, Son is usually surrounded by grass (of football pitch). If we will try to predict category of a pear lying on the grass it is more likely that pear is actually Son. And one of factors that will cause that situation is grass on the image. Additionally Son has red T-shirt on many pictures. That's why it is even more likely that red pear on the grass is Spurs player!
 <h4 align=center>Sample of Pears</h4>
 
 ![Drag Racing](resources/img1.PNG)
@@ -33,7 +31,8 @@ images and 508 Sons images in training set. Validation set was 20% of dataset.
 <h4 align=center>Sample of Sons</h4>
 
 ![Drag Racing](resources/img2.PNG)
-**4. Not rotated images** - the model should work in the same way regardless of rotation of images. In presented model rotated image provides different results. 
+
+**4. Not considering rotation of images** - the model should work in the same way regardless of rotation of images. In presented model rotated image provides different results. 
 
 ## How to use
 
@@ -99,11 +98,3 @@ $ pip install -r dependencies.txt
 $ jupyter notebook
 ```
 
-=======
-# pear-sons
-Simple image classification using CNN (Keras) and 'PearSon' dataset.
-# introduction
-The project was aimed to conduct a simple image classification using convolutional neural network.
-
- 
->>>>>>> 8c776d6b6087d0f90ef329fdab561489b7796d3d
